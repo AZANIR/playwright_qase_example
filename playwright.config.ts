@@ -62,7 +62,7 @@ export default defineConfig({
     baseURL: 'https://todo.qacart.com',
 
 		/* Run browser in headless mode. */
-		headless: process.env.HEADLESS_MODE === 'true',
+		headless: process.env.CI ? true : process.env.HEADLESS_MODE,
     		/* Options used to launch the browser. */
 		launchOptions: {
 			logger: {
