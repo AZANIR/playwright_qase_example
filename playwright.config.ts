@@ -1,12 +1,10 @@
 import { defineConfig, devices } from '@playwright/test';
-import 'dotenv/config';
-
 
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-// require('dotenv').config();
+require('dotenv').config();
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -61,9 +59,8 @@ export default defineConfig({
     /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: 'https://todo.qacart.com',
 
-		/* Run browser in headless mode. */
-		headless: process.env.CI ? true : process.env.HEADLESS_MODE,
-    		/* Options used to launch the browser. */
+
+    /* Options used to launch the browser. */
 		launchOptions: {
 			logger: {
 				isEnabled: (name, severity) => process.env.LOGGER_ENABLED === 'true',
