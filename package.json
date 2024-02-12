@@ -1,0 +1,33 @@
+{
+  "name": "playwright_qase_example",
+  "version": "1.0.0",
+  "description": "Playwright with qase",
+  "main": "index.js",
+  "scripts": {
+    "test": "export QASE_REPORT=1 && npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AZANIR/playwright_qase_example.git"
+  },
+  "keywords": [
+    "playwright",
+    "test",
+    "qase"
+  ],
+  "author": "Leonid M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AZANIR/playwright_qase_example/issues"
+  },
+  "homepage": "https://github.com/AZANIR/playwright_qase_example#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.0",
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.16",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "playwright-qase-reporter": "^1.2.2"
+  }
+}

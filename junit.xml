@@ -1,0 +1,41 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="5.643921">
+<testsuite name="example.spec.ts" timestamp="2024-02-07T11:38:04.725Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.32" errors="0">
+<testcase name="test - signup (Qase ID: 1)" classname="example.spec.ts" time="2.32">
+<system-out>
+<![CDATA[api info => browser.newContext started
+api info <= browser.newContext succeeded
+api info => browserContext.newPage started
+api info <= browserContext.newPage succeeded
+api info => page.goto started
+api info <= page.goto succeeded
+api info => locator.click started
+api info <= locator.click succeeded
+api info => locator.fill started
+api info <= locator.fill succeeded
+api info => locator.fill started
+api info <= locator.fill succeeded
+api info => locator.fill started
+api info <= locator.fill succeeded
+api info => locator.fill started
+api info <= locator.fill succeeded
+api info => locator.fill started
+api info <= locator.fill succeeded
+api info => locator.click started
+api info <= locator.click succeeded
+api info => expect.toHaveURL started
+api info <= expect.toHaveURL succeeded
+api info => page.screenshot started
+api info <= page.screenshot succeeded
+api info => video.saveAs started
+api info <= video.saveAs succeeded
+
+[[ATTACHMENT|test-results\example-test---signup-Qase-ID-1--chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\example-test---signup-Qase-ID-1--chromium\video.webm]]
+
+[[ATTACHMENT|test-results\example-test---signup-Qase-ID-1--chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
